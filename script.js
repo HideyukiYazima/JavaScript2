@@ -26,3 +26,12 @@ console.log(number);
 number /= 2;
 
 console.log(number);
+
+// let 値を更新することが可能
+// const 値を更新しようとするとエラーする
+
+const language = "矢嶋";
+
+console.log(language);
+
+console.log(language + "という名前です");
