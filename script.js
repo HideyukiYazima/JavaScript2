@@ -27,8 +27,8 @@ number /= 2;
 
 console.log(number);
 
-// let 値を更新することが可能
-// const 値を更新しようとするとエラーする
+// let 値を更新することが可能(変数)
+// const 値を更新しようとするとエラーする(定数)
 
 const language = "矢嶋";
 
