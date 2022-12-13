@@ -35,3 +35,10 @@ const language = "矢嶋";
 console.log(language);
 
 console.log(language + "という名前です");
+
+
+const level = 12;
+
+if (level > 10) {
+  console.log("レベルが10より大きいです");
+}
