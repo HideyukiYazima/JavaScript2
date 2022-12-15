@@ -85,3 +85,20 @@ const number = 23;
 if (number >= 20 && number < 30) {
   console.log("私の番号は20番代です");
 }
+
+// swith文
+const n = 2;
+
+switch (n) {
+  case 1:
+    console.log("大当たりです");
+    break;
+
+  case 2:
+    console.log("当たりです");
+    break;  
+
+  case 3:
+    console.log("ハズレです");
+    break;
+}
