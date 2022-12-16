@@ -101,4 +101,16 @@ switch (n) {
   case 3:
     console.log("ハズレです");
     break;
+
+  default:
+    console.log("大ハズレです");
+  break;
+}
+
+// while文
+let number = 1;
+
+while (number <= 100) {
+  console.log(number);
+  number += 1; 
 }
