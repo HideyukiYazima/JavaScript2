@@ -130,3 +130,11 @@ for (let number = 1; number <= 100; number ++) {
     console.log(number);
   }
 }
+
+
+// 配列要素
+const animals = ["dog", "cat", "sheep"];
+
+console.log(animals[0]);
+
+console.log(animals[2]);
