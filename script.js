@@ -138,3 +138,8 @@ const animals = ["dog", "cat", "sheep"];
 console.log(animals[0]);
 
 console.log(animals[2]);
+
+// 配列要素更新
+animals[3] = "rabbit";
+
+console.log(animals[3]);
