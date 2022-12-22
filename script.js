@@ -143,3 +143,8 @@ console.log(animals[2]);
 animals[3] = "rabbit";
 
 console.log(animals[3]);
+
+// for文で短縮
+for (let i = 0; i < 3; i++) {
+  console.log(animals[i]);
+}
