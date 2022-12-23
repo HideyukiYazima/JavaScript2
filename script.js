@@ -148,3 +148,17 @@ console.log(animals[3]);
 for (let i = 0; i < 3; i++) {
   console.log(animals[i]);
 }
+
+// lengthを用いる
+const animals = ["dog", "cat", "sheep", "rabbit", "monkey", "tiger", "bear", "elephant"];
+
+console.log(animals.length);
+
+for (let i = 0; i < animals.length; i++) {
+  console.log(animals[i]);
+}
+
+// オブジェクト
+const character = {name: "矢嶋", age: 14};
+
+console.log(character);
