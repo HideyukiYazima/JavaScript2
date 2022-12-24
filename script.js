@@ -162,3 +162,12 @@ for (let i = 0; i < animals.length; i++) {
 const character = {name: "矢嶋", age: 14};
 
 console.log(character);
+
+// 出力を指定
+console.log(character.name);
+
+// 数値を更新
+character.age = 20;
+
+console.log(character);
+
