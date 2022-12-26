@@ -171,3 +171,14 @@ character.age = 20;
 
 console.log(character);
 
+// 配列の中のオブジェクトを取り出す
+const characters = [
+  {name: "矢嶋", age: 14},
+  {name: "秀行", age: 2000}
+];
+
+console.log(characters[0]);
+
+console.log(characters[1].name);
+
+// 配列と繰り返し処理
