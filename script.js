@@ -182,3 +182,29 @@ console.log(characters[0]);
 console.log(characters[1].name);
 
 // 配列と繰り返し処理
+const characters = [
+  {name: "矢嶋", age: 14},
+  {name: "秀行", age: 100},
+  {name: "ヒデ", age: 5},
+  {name: "ヤジ"},
+];
+
+for (let i = 0; i < characters.length; i++) {
+  console.log("--------------------");
+  
+  const character = characters[i];
+  
+  console.log(`名前は${character.name}です`);
+  
+  console.log(`${character.age}歳です`);
+  
+
+// 存在しない要素取得
+  if (character.age === undefined) {
+    console.log("年齢は秘密です");
+  }
+  else {
+    console.log(`${character.age}歳です`);
+  }
+
+}
