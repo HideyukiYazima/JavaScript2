@@ -212,14 +212,23 @@ for (let i = 0; i < characters.length; i++) {
 // 様々なオブジェクトの出力
 
 const cafe = {
-  name: "Progateカフェ",
+  name: "カフェ",
   businessHours: {
-    opening: "10:00(AM)",
-    closing: "8:00(PM)",
-    
-  }
+    opening: "9:00(AM)",
+    closing: "7:00(PM)",
+  },
+  menus: ["ホットケーキ","牛乳","チョコレート"]
+
 };
 
 console.log(`店名:${cafe.name}`);
 
 console.log(`営業時間:${cafe.businessHours.opening}から${cafe.businessHours.closing}`);
+console.log(`----------------------------`);
+console.log("おすすめメニューはこちら");
+
+for (let i = 0; i < cafe.menus.length; i++) {
+  console.log(cafe.menus[i]);
+  }
+
+
